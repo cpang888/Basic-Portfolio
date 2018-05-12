@@ -1,0 +1,84 @@
+
+
+#name {
+    background-color:#4aaaa5;
+    width:200px;
+    padding:25px;
+    color:#fff;
+    float: left;
+    margin-left: 200px;
+    font-size: 40px;
+}
+
+.topnav {
+    float: left;
+    overflow: hidden;
+    background-color: #fff;
+    margin-left: 300px;
+    padding:10px;
+}
+.topnav a {
+    float: left;
+    color: #7777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: #ddd;
+    color:black;
+}
+.topnav a.active{
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+#mainSection {
+    background-color: lightgray;
+    clear: both;
+    padding: 30px;
+}
+#secSection {
+    background-color: white;
+    clear: both;
+    padding: 20px;
+    margin: 0 100px 0 100px;
+    border: black;
+    height: 500px;
+
+}
+#aboutMe {
+    font-size: 20px;
+    padding: 20px;
+    color: #4aaaa5;
+}
+
+#image {
+    width: 320px;
+    height: 200px;
+
+}
+aside {
+    background: #fff;
+    padding: 20px;
+    float: left;
+    width: 200px;
+    height: 400px;
+    margin-left: 15px;
+  }
+
+  division {
+    background: #fff;
+    padding: 20px;
+    float: left;
+    width: 200px;
+    margin-left: 15px;
+  }
+
+  footer {
+    clear: both;
+    background: #666666;
+    padding: 20px;
+  }
