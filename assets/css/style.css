@@ -1,29 +1,41 @@
 
+.topSection {
+    width: 1000px;
+    height: 100px;
+    padding: 0 0 0 20px;
+    margin: 0px 10px 0px 100px;
+}
 
 #name {
     background-color:#4aaaa5;
     width:auto;
-    padding:25px;
+    /*padding:25px;*/
     color:#fff;
     float: left;
-    margin-left: 200px;
+    margin: 30px 0 0 0;
     font-size: 40px;
 }
 
 .topnav {
-    float: left;
+    float: right;
     overflow: hidden;
     background-color: #fff;
-    margin-left: 300px;
+    margin: 30px 0 0 300px;
     padding:10px;
+    width:300px;
+    text-align:right;
 }
 .topnav a {
     float: left;
     color: #7777;
-    text-align: center;
+    text-align: right;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+}
+.topnav a.pos_right {
+    position: relative;
+    left:5px;
 }
 .topnav a:hover {
     background-color: #ddd;
@@ -37,34 +49,24 @@
 
 #mainSection {
     background-color: lightgray;
-    clear: both;
     padding: 10px;
+    clear: both;
 }
 #secSection {
     background-color: white;
     clear: both;
     padding: 20px;
-   /* margin: 10px 250px 30px 250px;*/
-   margin: 10px 10px 30px 100px; 
-   width:960px;
+    margin: 10px 10px 30px 100px; 
+    width:960px;
+    height: 600px;
     border: black;
-    height: 500px;
-
 }
 #aboutMe {
     font-size: 20px;
     padding: 20px;
     color: #4aaaa5;
 }
-/*
-#image {
-    width: auto;
-    width: 100%;
-    max-height: 200px;
-    height: 100%;
-    display: block;
-    margin: 0 auto;
-}*/
+
 aside {
     background: #fff;
     padding: 10px;
@@ -97,6 +99,18 @@ aside {
     
   }
 
+  input {
+      width: 95%;
+      padding: 10px;
+      margin-right: 10px;
+  }
+
+  textarea {
+    width: 95%;
+    padding: 10px;
+    margin-right: 10px;
+  }
+
 .textInputBox {
     padding: 10px;
     width: 100%;
@@ -114,3 +128,66 @@ aside {
     padding: 5px 10px 5px 10px;
     margin: 0 10px 0 10px;
 }
+
+.sec1a {
+    width: 350px;
+    height: 150px;
+    padding: 5px;
+    margin: 0 0 0 0;
+    position: relative;
+    float: left;
+}
+
+.secImg {
+    width: 350px;
+    height: 150px;
+}
+.sec1c {
+    clear: both;
+    width: 350px;
+    height: 150px;
+    padding: 5px;
+    margin: 0 0 0 0;
+    position: relative;
+}
+.secFloat {
+    float: left;
+}
+/*
+.test {
+     width: 200px;
+     height: 10px;
+     float: left;
+     position: absolute;
+     top: 70px;
+     right: 15px;
+     background-color: lightblue;
+ }*/
+
+.overlay {
+    width: 300px;
+    height: 10px;
+    background-color: lightblue;
+    bottom: 10px;
+    margin: 0;
+    padding:5;
+    /*margin-top: 50px;*/
+ }
+ .seclayout {
+     /*overflow: auto;*/
+     width: 100%;
+     height: 300px;
+ }
+
+ h2 {
+     position: absolute;
+     top: 100px;
+     left: 5px;
+     width: 350px;
+     background-color: lightblue;
+ }
+
+ body {
+     width: 100%;
+     height: 800px;
+ }
