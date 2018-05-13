@@ -2,29 +2,32 @@
 #name {
     background-color:#4aaaa5;
     width:auto;
-    /*padding:25px;*/
+    padding: 0 25px 0 25px;
     color:#fff;
     float: left;
-    margin: 30px 0 0 0;
+    margin: 0 0 0 0;
     font-size: 40px;
+    position: relative;
+    bottom: -5px;
 }
 
 h1 {
+    position: relative;
     background-color:#ffffff;
     border: #cccccc;
     width: 1000px;
-    height: 100px;
-    padding: 0 0 0 20px;
+    height: 50px;
+    padding: 20px 0 0 20px;
     margin: 0px 10px 0px 100px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    bottom: 0;
 }
 
 .topnav {
     float: right;
     overflow: hidden;
     background-color: #fff;
-    margin: 30px 0 0 250px;
-    padding:10px;
+    margin: 0 0 0 250px;
     width:400px;
     text-align:right;
 }
@@ -58,7 +61,7 @@ h1 {
     margin: 10px 10px 30px 100px; 
     width:960px;
     height: 600px;
-    border: #dddddd;
+    border-color: #dddddd;
 }
 #aboutMe {
     font-size: 20px;
