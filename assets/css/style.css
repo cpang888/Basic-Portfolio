@@ -38,13 +38,15 @@
 #mainSection {
     background-color: lightgray;
     clear: both;
-    padding: 30px;
+    padding: 10px;
 }
 #secSection {
     background-color: white;
     clear: both;
     padding: 20px;
-    margin: 0 100px 0 100px;
+   /* margin: 10px 250px 30px 250px;*/
+   margin: 10px 10px 30px 100px; 
+   width:960px;
     border: black;
     height: 500px;
 
@@ -94,3 +96,21 @@ aside {
     bottom: 0;
     
   }
+
+.textInputBox {
+    padding: 10px;
+    width: 100%;
+}
+
+.messageBox {
+    padding: 0 0 0 10px;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 200px;
+}
+
+.submitBtn {
+    background-color: #4aaaa5;
+    padding: 5px 10px 5px 10px;
+    margin: 0 10px 0 10px;
+}
